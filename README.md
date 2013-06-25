@@ -5,19 +5,20 @@ The intent of this project isn't to try to be a one size fits all production see
 
 The entire angular seed project is included as a submodule. This is valuable because we can use the included testing harness from the beginning. Additionally we can write our templates in pure html which saves us from another layer of abstraction.
 
-That said, if you'd like to see the structure of a more production ready app check out Brain Ford's excellent [Angular Express Seed](https://github.com/btford/angular-express-seed). In fact, check out his blog post in any case for the best simple explanation of a simple CRUD app.
+That said, if you'd like to see the structure of a more production ready app check out Brain Ford's excellent [Angular Express Seed](https://github.com/btford/angular-express-seed). In fact, check out his blog post in any case for the best explanation of a simple CRUD app.
 
 ## Why
-Using the Angular Seed Project is great to get your feet wet, but ery quickly you'll need a way to persist data on the server.
+Using the Angular Seed Project is great to get your feet wet, but very quickly you'll need a way to persist data on the server.
 
 Finally, don't feel like you are tried to Node for your production env. If you are consistent with your api, you should be able to drop in you app that you developed here into your flask/sinatra/rails/django backend. This way we maintain the separation between frontend and backend development.
+
 ## Initial Config
-	$ git clone <repo_name>
+	$ git clone git@github.com:andrewjesaitis/Angular-Express-Starter.git
 	$ git submodule init
 	$ git submodule update
 
 Now you have all the code to get stated. Next install the node dependencies (express + ejs):
-	$ cd angular-express-starter
+	$ cd Angular-Express-Starter
 	$ npm install
 
 Finally serve up the app:
